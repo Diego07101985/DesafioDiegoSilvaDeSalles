@@ -1,5 +1,5 @@
 
-Esse projeto foi contruido usando o framework Spring Boot
+Esse projeto foi construido usando o framework Spring Boot
 
 
 O Spring Boot inicia executando  Application
