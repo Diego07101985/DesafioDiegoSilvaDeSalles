@@ -11,6 +11,10 @@ Configuração do database do mongo
 
 O Sitema roda na porta 9000
 
+
+use dev_database
+use test_database
+
 Busca Planeta Por nome
 http://localhost:9000/planet/findPlanetAndFilmsByName?namePlanet={nomePlaneta}
 Busca Planeta Por Id
@@ -39,7 +43,7 @@ Body
     
 
 Eu mostrei os ids por conveniencia
-comentando o codigo abaixo que fica no RestConfiguration  test-mongo
+comentando o codigo abaixo que fica no RestConfiguration 
 	@Override
     public RepositoryRestConfiguration config() {
         RepositoryRestConfiguration config = super.config();
